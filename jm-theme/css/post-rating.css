@@ -1,0 +1,44 @@
+/* Styling for star rating */
+.star {
+    font-size: 24px;
+    cursor: pointer;
+    color: gray;
+    transition: color 0.3s ease;
+}
+
+.star:hover {
+    color: gold;
+}
+
+.star-rating {
+    display: flex;
+    gap: 5px;
+}
+
+#submit-rating {
+    margin-left: 10px;
+    padding: 5px 15px;
+    font-size: 16px;
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#submit-rating:hover {
+    background-color: #005177;
+}
+
+#rating-result {
+    font-size: 16px;
+    color: green;
+    font-weight: bold;
+    display: flex; /* Use Flexbox */
+    justify-content: center; /* Align horizontally */
+    align-items: center; /* Align vertically */
+    text-align: center; /* Ensure the text is centered */
+    height: 100px; /* Set a height for the div */
+    margin-top: 20px; /* Space from other elements */
+}
